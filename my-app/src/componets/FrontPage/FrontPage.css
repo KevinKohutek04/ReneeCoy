@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    background-color: rgb(238, 231, 221);
+    background-image: url('../Assets/sea.png'); /* Ensure this path is correct */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+   
+    height: 100vh;
+    width: 100vw;
+}
+.Title {
+    color: #515A4E;
+    font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 35px;
+}
+.SubTitle {
+    color: #515A4E;
+    font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 25px;
+}
+.SubText {
+    color: black;
+    font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: 18px;
+}
+.MainBox {
+    height: 100%;
+    width: 100;
+}
