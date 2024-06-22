@@ -2,100 +2,30 @@
 
 html, body {
     height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    background-color: rgb(238, 231, 221);
-    background-image: url('../Assets/sea.png'); /* Ensure this path is correct */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    width: 100%;
     overflow-x: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100vw;
-    font-family: "Mulish", sans-serif;
 }
-
 .MainBox {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    height: 100%;
     width: 100%;
-    overflow-y: auto;
-}
-
-.Header {
-    text-align: center;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
-    width: 100%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .Title {
+    font-family: 'Mulish', sans-serif;
     color: #515A4E;
     font-weight: 700;
     font-size: 35px;
 }
 
 .SubTitle {
+    font-family: 'Mulish', sans-serif;
     color: #515A4E;
     font-weight: 500;
     font-size: 25px;
 }
-
-.MainContent {
-    display: flex;
-    background-color: aliceblue;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100%;
-    height: 2000px; /*change me after done coding*/
-    box-sizing: border-box;
-    
-}
-
-.FishSection {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100%;
-}
-
-.FishCard {
-    background-color: white;
-    margin: 10px;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    box-sizing: border-box;
-    text-align: center;
-}
-
-.FishImage {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-.FishTitle {
-    color: #515A4E;
-    font-weight: 600;
-    font-size: 22px;
-    margin-top: 10px;
-}
-
-.FishDescription {
+.SubText {
+    font-family: 'Mulish', sans-serif;
     color: black;
-    font-weight: 300;
-    font-size: 16px;
-    margin-top: 10px;
+    font-weight: 500;
+    font-size: 18px;
 }
