@@ -4,7 +4,9 @@ import './IntroSection.css';
 function IntroSection () {
     return (
         <div className="IntroMain">
-                
+                <div className="Top-Section">
+                    skibidi
+                </div>
         </div>
     );
 }
