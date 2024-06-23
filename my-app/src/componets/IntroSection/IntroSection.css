@@ -6,3 +6,14 @@
 .Top-Section {
     width: 100%;
 }
+.Top-Section-Nav {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+.Top-Section-Photo {
+    height: 250px;
+    width: auto;
+}
