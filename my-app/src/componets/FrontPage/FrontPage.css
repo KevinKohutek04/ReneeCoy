@@ -1,13 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-html, body {
+body {
+    background-image: url('../Assets/sea.png');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    padding-bottom: 50px;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+.Background {
     height: 100%;
     width: 100%;
-    overflow-x: hidden;
-}
-.MainBox {
-    height: 100%;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .Title {
@@ -28,4 +37,10 @@ html, body {
     color: black;
     font-weight: 500;
     font-size: 18px;
+}
+.CenteredContent {
+    margin-top: 4%;
+    border: 3px solid black;
+    width: 60%;
+    background-color: rgb(238, 231, 221);
 }
