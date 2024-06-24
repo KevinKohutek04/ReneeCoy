@@ -2,13 +2,15 @@ import React from "react";
 import './FrontPage.css';
 import Spacer from "../Utility/Spacer";
 import IntroSection from "../IntroSection/IntroSection";
+import MainBody from "../MainBody/MainBody.js";
 
 function FrontPage() {
     return (
         <div className="Background">
              <div className="CenteredContent">
                 <IntroSection />
-                <Spacer amount={20}/>
+                <MainBody />
+                
             </div>
         </div>
     );

@@ -1,0 +1,20 @@
+.MainBody-Main {
+    width: 100%; 
+    height: 1000px;/*CHANGE WHEN DONE*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.MainBody-Title {
+    height: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.MainBody-Table {
+    height: auto;
+    width: 100%;
+}

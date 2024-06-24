@@ -1,0 +1,7 @@
+Dark Teal (Fish and Water): #00575B
+Light Teal (Water Splashes): #1DA3A6
+Cream White (Text): #F3E4D9
+Dark Blue (Background Water): #003E4F
+Light Blue (Water Highlights): #6FC0D5
+Dark Gray (Fish Scales): #3B3B3B
+Medium Gray (Fish Outline): #787878

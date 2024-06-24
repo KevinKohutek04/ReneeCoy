@@ -1,19 +1,40 @@
 .IntroMain {
     width: 100%;
-    background-color: #515A4E;
-    border-bottom: 3px solid black;
-}
-.Top-Section {
+    background-color: #00575B;
+    /*border-bottom: 3px solid black;*/
+  }
+  
+  .Top-Section {
     width: 100%;
-}
-.Top-Section-Nav {
-    height: 50px;
+  }
+  
+  .Top-Section-Nav {
+    z-index: 2;
+    height: 100px;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Top-Section-Nav a {
+    font-weight: 600;
+    margin: 0 20px;
+    font-size: 18px;
+    font-family: 'Mulish', sans-serif;
     text-decoration: none;
-}
-.Top-Section-Photo {
-    height: 250px;
+    color: white;
+  }
+  
+  .Top-Section-Photo {
+    height: 380px;
+    z-index: 99;
     width: auto;
-}
+    margin-top: 220px;
+  }
+  
+  .Top-Section-Video {
+    width: 100%;
+    display: flex;
+  }
+  
