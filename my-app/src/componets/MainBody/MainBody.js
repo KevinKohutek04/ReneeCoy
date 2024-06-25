@@ -2,6 +2,7 @@ import React from "react";
 import './MainBody.css';
 import GreyLine from "../Utility/GreyLine";
 import Spacer from "../Utility/Spacer";
+import FishRender from './Fish/FishRender';
 
 function MainBody () {
     return (
@@ -16,7 +17,7 @@ function MainBody () {
             <Spacer amount={1} />
             <GreyLine />
             <div className="MainBody-Table">
-
+                <FishRender />
             </div>
         </div>
 
