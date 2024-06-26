@@ -1,8 +1,8 @@
 .greyline {
     width: 80%;
-    height: 1px; 
-    opacity: .8;
-    background-color: #787878; 
+    height: 2px; 
+    background-color: black; 
     margin: 0 auto;
     margin-bottom: 10px;
+    z-index: 90;
 }

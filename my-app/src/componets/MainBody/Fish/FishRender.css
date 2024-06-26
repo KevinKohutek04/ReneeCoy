@@ -1,15 +1,34 @@
 .MainBody-Fish {
     width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-.FishItem {
-    justify-content: space-evenly;
     display: flex;
     flex-direction: row;
-    width: 100%;
-    height: 250px;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+.MainBody-FishContent {
+    width: 50%;
+    height: 350px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FishRender-Image {
+    width: 100px;
+    height: 200px;
+    display: block;
+}
+.SubTextp {
+    width: 70%;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
 }

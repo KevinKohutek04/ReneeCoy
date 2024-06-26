@@ -16,6 +16,7 @@ function MainBody () {
             </div>
             <Spacer amount={1} />
             <GreyLine />
+            <span className="Title">FISH SPECIES</span>
             <div className="MainBody-Table">
                 <FishRender />
             </div>

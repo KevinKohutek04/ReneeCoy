@@ -20,6 +20,7 @@ body {
 }
 
 .Title {
+    padding-top: 0px;
     font-family: 'Mulish', sans-serif;
     color: #515A4E;
     font-weight: 700;
@@ -41,7 +42,7 @@ body {
     font-size: 18px;
 }
 .CenteredContent {
-    height: 100%;
+    height: 2000px; /*CHANGE WHEN DONE*/
     flex-direction: column;
     margin-top: 4%;
     border: 3px solid black;
