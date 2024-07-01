@@ -1,3 +1,3 @@
-# FrontPage for local company in dallas that sells koi fish
+# Project currently put on hold until further notice
 
-the project is built in native react and it is ran using aws
+I will be coming back to remake this whole website at a later date. This project is currently UNFINNISHED 
